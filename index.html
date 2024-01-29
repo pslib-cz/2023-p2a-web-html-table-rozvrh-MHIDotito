@@ -8,7 +8,7 @@
     
     
     <style>
-        .blue {
+.blue {
     background-color: cyan;
     border: 3px solid yellow;
 }
@@ -21,10 +21,16 @@
     border: 3px solid blue;
 }
 .table{
+    border: 3px solid rgb(rgb(99, 99, 240));
+    width: 100%;
     border-collapse: collapse;
 }
 th, td {
     border: 3px solid rgb(rgb(99, 99, 240));
+}
+
+th {
+  height: 70px;
 }
 
 /*.td {
@@ -42,46 +48,99 @@ th, td {
         <colgroup class="prvni">
             <col>
         </colgroup>
-        <col span="4">
+        <col span="11">
+        
         <thead>
             <tr>
-                <th>A</th>
-                <th>B</th>
-                <th>C</th>
-                <th>D</th>
-                <th>E</th>
+                <th></th>
+                <th>0</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
             </tr>
         </thead>
         
         <tbody>
             <tr>
-                <th>I.</th>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
+                <th rowspan="2">PO</th>
+                <td></td>
+                <td>ANJ</td>
+                <td rowspan="2">MAT</td>
+                <td rowspan="2">CJL</td>
+                <td rowspan="2">MEC</td>
+                <td rowspan="2">ELE</td>
+                <td rowspan="2">---</td>
+                <td rowspan="2">TED</td>
+                <td rowspan="2">SIT</td>
+                <td rowspan="2">---</td>
+                <td rowspan="2">---</td>
+           
             </tr>
             
             <tr>
-                <th>II.</th>
-                <td colspan="2" class="blue">5</td>
-                <td rowspan="2" class="red">6</td>
-                <td>7</td>
+                <th></th>
+                <td>ANJ</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+
+            <tr>
+                <th rowspan="2">ÚT</th>
+                <td>---</td>
+                <td>CAD</td>
+                <td>CAD</td>
+                <td rowspan="2">MEC</td>
+                <td >ANJ</td>
+                <td rowspan="2">ZSV</td>
+                <td rowspan="2">FYZ</td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
             </tr>
 
             <tr>
-                <th>III.</th>
-                <td colspan="2" rowspan="2" class="green">8</td>
-                <td>9</td>
+                <th></th>
+                <td>CAS</td>
+                <td>CAS</td>
+                <td>ANJ</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
+
 
             <tr>
-                <th>IV.</th>
-                <td>10</td>
-                <td>11</td>
+                <th>ST</th>
+                <td>---</td>
+                <td rowspan="2">MAT</td>
+                <td rowspan="2">TEV</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
 
-
+            
         </tbody>
 
     </table>

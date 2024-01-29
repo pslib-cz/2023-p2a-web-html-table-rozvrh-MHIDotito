@@ -1,0 +1,28 @@
+<tr>
+                <th rowspan="2">ÚT</th>
+                <td></td>
+                <td>CAD</td>
+                <td>CAD</td>
+                <td rowspan="2">MEC</td>
+                <td >ANJ</td>
+                <td rowspan="2">ZSV</td>
+                <td rowspan="2">FYZ</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+
+                <th rowspan="2">ST</th>
+                <td></td>
+                <td>KAMO</td>
+                <td>NEVIM</td>
+                <td>COS</td>
+                <td>TIM</td>
+                <td>JE</td>
+                <td>PROC</td>
+                <td>MOT</td>
+                <td></td>
+                <td></td>
+            </tr>
