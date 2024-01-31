@@ -1,6 +1,6 @@
 /*TABLE*/
 table {
-    background-color: rgb(226, 225, 225);
+    background-color: rgb(215, 247, 244);
     border: 2px solid black;
     border-collapse: collapse;
 }
@@ -12,7 +12,7 @@ table {
 }
 
 /*HEADER*/
-.header__table {
+.time {
     font-size: 24px;
     border-bottom: 2px solid black;
     padding: 0.5em;
@@ -29,12 +29,12 @@ thead tr th{
     border: 2px solid rgba(0, 0, 0, 0.712);
 }
 
-
-
-/*BODY*/
-tbody tr th{
-    height: 100px;
+.none{
+    cursor: not-allowed;
+    background-color: rgb(139, 139, 139);
 }
+
+
 
 tbody tr th:first-child {
     border: 2px solid black;
@@ -48,4 +48,24 @@ tbody td {
     /*BORDER*/
     border: 2px solid rgba(0, 0, 0, 0.712);
     border-collapse: collapse;
+    font-size: 20px;
+    font-weight: dark;
+}
+
+.timetable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.day{
+    font-size: 30px;
+    font-weight: bold;
 }

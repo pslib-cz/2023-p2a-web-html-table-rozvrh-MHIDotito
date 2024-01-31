@@ -10,12 +10,15 @@
 
 </head>
 <body>
+    <div class=title>
+        <h1>ROZVRH třídy S2B</h1>
+    </div>
 <div class="timetable">
-     <table>       
+    <table>       
         <thead>
                 <!--ČASY -->
                 <tr class="time">
-                    <th class="timetable">ROZVRH</th>
+                    <th class="time__title">ROZVRH</th>
                     <th>7:10 - 7:55 </th>
                     <th>8:00 - 8:45 </th>
                     <th>8:55 - 9:40</th>
@@ -32,8 +35,8 @@
         <tbody>
             <!-- PONDĚLÍ -->
             <tr>
-                <th rowspan="2">PO</th>
-                <td class="none" rowspan="2"></td>
+                <th rowspan="2" class="day">PO</th>
+                <td rowspan="2" class="none"></td>
                 <td>ANJ</td>
                 <td rowspan="2">MAT</td>
                 <td rowspan="2">CJL</td>
@@ -43,8 +46,6 @@
                 <td rowspan="2">TED</td>
                 <td rowspan="2">SIT</td>
                 <td rowspan="2" class="none"></td>
-
-           
             </tr>
             
             <tr>
@@ -54,7 +55,7 @@
 
             <!-- ÚTERÝ-->
             <tr>
-                <th rowspan="2">ÚT</th>
+                <th rowspan="2" class="day">ÚT</th>
                 <td rowspan="2" class="none"></td>
                 <td>CAD</td>
                 <td>CAD</td>
@@ -75,12 +76,12 @@
 
             <!-- STŘEDA -->
             <tr>
-                <th rowspan="4">ST</th>
-                <td class="none" rowspan="4"></td>
+                <th rowspan="4" class="day">ST</th>
+                <td rowspan="4" class="none"></td>
                 <td rowspan="4">MAT</td>
                 <td rowspan="4">TEV</td>
                 <td rowspan="4">TEV</td>
-                <td rowspan="4"></td>
+                <td rowspan="4" class="none"></td>
                 <td rowspan="4">FYZ</td>
                 <td rowspan="4"> SIT</td>
                 <td>L:PRA</td>
@@ -106,7 +107,7 @@
 
             <!-- ČTVRTEK -->
             <tr>
-                <th rowspan="2">ČT</th>
+                <th rowspan="2" class="day">ČT</th>
                 <td rowspan="2" class="none"></td>
                 <td rowspan="2">MEC</td>
                 <td rowspan="2">CJL</td>
@@ -127,7 +128,7 @@
 
             <!-- PÁTEK -->
             <tr>
-                <th>PÁ</th>
+                <th class="day">PÁ</th>
                 <td class="none"></td>
                 <td>CAS</td>
                 <TD>ZSV</TD>
