@@ -7,149 +7,144 @@
     <link rel="stylesheet" href="style.css">
     
     
-    <style>
-.table{
-    background: lightgt;
-    border: 3px solid rgb(rgb(99, 99, 240));
-    width: 100%;
-    border-collapse: collapse;
-}
-td {
-    border: 3px solid rgb(rgb(99, 99, 240));
-   back
-}
 
-th {
-  height: 100px;
-  width: 100px;
-  border: 3px solid rgb(rgb(99, 99, 240));
-}
-
-/*.td {
-    border: 1px solid rgb(rgb(99, 99, 240));
-}
-*/
-.prvni{
-    background-color: magenta;
-}
-    </style>
 </head>
 <body>
-     <table>
-        
-        <colgroup class="prvni">
-            <col>
-        </colgroup>
-        <col span="11">
-        
+<div class="timetable">
+     <table>       
         <thead>
-            <tr>
-                <th></th>
-                <th>0</th>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th>4</th>
-                <th>5</th>
-                <th>6</th>
-                <th>7</th>
-                <th>8</th>
-                <th>9</th>
+                <tr class="cas">
+                    <th class="rozvrh">ROZVRH</th>
+                    <th>7:10 - 7:55 </th>
+                    <th>8:00 - 8:45 </th>
+                    <th>8:55 - 9:40</th>
+                    <th>10:00 - 10:45</th>
+                    <th>10:55 - 11:40</th>
+                    <th>11:50 - 12:35</th>
+                    <th>12:45 - 13:30</th>
+                    <th>13:40 - 14:25</th>
+                    <th>14:35 - 15:20</th>
+                    <th>15:25 - 16:10</th>
             </tr>
         </thead>
         
         <tbody>
+            <!-- PONDĚLÍ -->
             <tr>
                 <th rowspan="2">PO</th>
-                <td></td>
+                <td class="none" rowspan="2"></td>
                 <td>ANJ</td>
                 <td rowspan="2">MAT</td>
                 <td rowspan="2">CJL</td>
                 <td rowspan="2">MEC</td>
                 <td rowspan="2">ELE</td>
-                <td rowspan="2">---</td>
+                <td rowspan="2" class="none"></td>
                 <td rowspan="2">TED</td>
                 <td rowspan="2">SIT</td>
-                <td rowspan="2">---</td>
-                <td rowspan="2">---</td>
+                <td rowspan="2" class="none"></td>
+
            
             </tr>
             
             <tr>
-                <th></th>
                 <td>ANJ</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
 
 
-
+            <!-- ÚTERÝ-->
             <tr>
                 <th rowspan="2">ÚT</th>
-                <td>---</td>
+                <td rowspan="2" class="none"></td>
                 <td>CAD</td>
                 <td>CAD</td>
                 <td rowspan="2">MEC</td>
                 <td >ANJ</td>
                 <td rowspan="2">ZSV</td>
                 <td rowspan="2">FYZ</td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
-                <td rowspan="2"></td>
+                <td rowspan="2" class="none"></td>
+                <td rowspan="2" class="none"></td>
+                <td rowspan="2" class="none"></td>
             </tr>
 
             <tr>
-                <th></th>
                 <td>CAS</td>
                 <td>CAS</td>
                 <td>ANJ</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
 
-
+            <!-- STŘEDA -->
             <tr>
-                <th>ST</th>
-                <td>---</td>
+                <th rowspan="4">ST</th>
+                <td class="none" rowspan="4"></td>
                 <td rowspan="4">MAT</td>
                 <td rowspan="4">TEV</td>
                 <td rowspan="4">TEV</td>
-                <td rowspan="4">---</td>
+                <td rowspan="4"></td>
                 <td rowspan="4">FYZ</td>
                 <td rowspan="4"> SIT</td>
-                <td rowspan="1">L:PRA</td>
-                <td rowspan="1">L:PRA</td>
-                <td rowspan="1">L:PRA</td>
-            </tr>
+                <td>L:PRA</td>
+                <td>L:PRA</td>
+                <td>L:PRA</td>
+                </tr>
 
             <tr>
-                <th></th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td> 
                 <td>PRA</td>
                 <td>PRA</td>
                 <td>PRA</td>
             </tr>
+            <tr>
+                <td>PRA</td>
+                <td>PRA</td>
+                <td>PRA</td>
+            </tr>
+            <tr>
+                <td>S:PRA</td>
+                <td>S:PRA</td>
+                <td>S:PRA</td>
+            </tr>
+
+            <!-- ČTVRTEK -->
+            <tr>
+                <th rowspan="2">ČT</th>
+                <td rowspan="2" class="none"></td>
+                <td rowspan="2">MEC</td>
+                <td rowspan="2">CJL</td>
+                <td rowspan="2">CAS</td>
+                <td rowspan="2" class="none"></td>
+                <td>ANJ</td>
+                <td rowspan="2">TED</td>
+                <td>CAD</td>
+                <td>CAD</td>
+                <td rowspan="2" class="none"></td>
+            </tr>
             
+            <tr>
+                <td>ANJ</td>
+                <td>CAS</td>
+                <td>CAS</td>
+            </tr>
+
+            <!-- PÁTEK -->
+            <tr>
+                <th>PÁ</th>
+                <td class="none"></td>
+                <td>CAS</td>
+                <TD>ZSV</TD>
+                <td>STT</td>
+                <td>ELE</td>
+                <td class="none"></td>
+                <td class="none"></td>
+                <td class="none"></td>
+                <td class="none"></td>
+                <td class="none"></td>
+            </tr>            
+
+
+
         </tbody>
 
     </table>
+</div>
 
 </body>
 </html>
